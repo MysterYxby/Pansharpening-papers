@@ -115,9 +115,6 @@ A collection of papers on pansharpening methods for remote sensing image fusion.
 | **LGTEUN 配套数据**          | GF2/WV2/WV3；RR 训练分别 1036/1012/910 对，RR 测试 136/145/144 对，FR 测试各 120 对 | 自建场景划分，不能将其结果直接当作同卫星名的 PanCollection 结果；README 的 WF-2 是 WV2 笔误 | [作者发布说明与 Google Drive 入口](https://github.com/lms-07/LGTEUN#datasets-and-file-hierarchy) |
 | **PanTCR-GF2**               | Pan-TCR 的 GF2 薄云污染 PAN/MS 基准；含联合去云与融合所需数据 | 用于带云扩展任务；需核对作者的云合成、参考图像及训练测试划分 | [代码/数据仓库及百度网盘入口](https://github.com/dusongcheng/PanTCR-GF2) |
 
-**本地文件命名纠正**：`公开数据集/Pancollection-2021.pdf` 的正文题名是 *A New Benchmark Based on Recent Advances in Multispectral Pansharpening: Revisiting Pansharpening With Classical and Emerging Pansharpening Methods*（Vivone 等，GRSM 2021，DOI [10.1109/MGRS.2020.3019315](https://doi.org/10.1109/MGRS.2020.3019315)），不是 liangjiandeng/PanCollection 的同名数据论文。作为另一项 benchmark/工具箱文献保留，避免错配。
-
-说明：本次核查的是公开入口及说明，未下载全部数据；公开可获取不等于所有数据均可任意再分发。DLPan-Toolbox 明确说明其综述原始实验数据因版权未发布，推荐的 PanCollection 不应被写成完全相同的原始数据。
 
 ### 4.2 常见卫星名与实验配置
 
